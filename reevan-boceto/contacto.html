@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reevan E.I.R.L — Contacto</title>
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>Reevan E.I.R.L</h1>
+          <small>Contacto</small>
+        </div>
+      </div>
+      <nav class="sideNav">
+        <a class="sideLink" href="index.html">🏠 Inicio</a>
+        <a class="sideLink" href="tienda.html">🛒 Tienda / Cotizar</a>
+        <a class="sideLink" href="articulos.html">📰 Artículos</a>
+        <a class="sideLink" href="quienes-somos.html">🏭 Quiénes somos</a>
+        <a class="sideLink" href="contacto.html">📩 Contacto</a>
+      </nav>
+
+      <div class="sideCard">
+        <b>📌 Tip para cotizar</b>
+        <span>Adjunta tu logo + lista de tallas + cantidades y técnica deseada.</span>
+        <div class="pillRow">
+          <span class="pill info">Logo (PNG/PDF)</span>
+          <span class="pill acc">Tallas</span>
+        </div>
+      </div>
+    </aside>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main class="content">
+      <div class="topbar">
+        <div class="topbarRow">
+          <button class="iconBtn" id="btnMenu" type="button">☰ Menú</button>
+          <div class="titleMini">Contacto</div>
+          <a class="iconBtn" href="tienda.html" style="text-decoration:none;">🛒</a>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <div class="sectionHead">
+          <h2>📩 Contáctanos</h2>
+          <p>Formulario estático (demo)</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card mediaCard">
+            <form onsubmit="return false;">
+              <div class="formGrid">
+                <div>
+                  <label style="font-weight:950; font-size:12px">Nombre</label>
+                  <input placeholder="Tu nombre" />
+                </div>
+                <div>
+                  <label style="font-weight:950; font-size:12px">Empresa / Colegio</label>
+                  <input placeholder="Opcional" />
+                </div>
+              </div>
+
+              <div class="formGrid" style="margin-top:12px">
+                <div>
+                  <label style="font-weight:950; font-size:12px">Correo</label>
+                  <input type="email" placeholder="correo@ejemplo.com" />
+                </div>
+                <div>
+                  <label style="font-weight:950; font-size:12px">Teléfono</label>
+                  <input placeholder="+51 999 999 999" />
+                </div>
+              </div>
+
+              <div style="margin-top:12px">
+                <label style="font-weight:950; font-size:12px">Tipo de pedido</label>
+                <select>
+                  <option>Indumentaria deportiva</option>
+                  <option>Uniformes corporativos</option>
+                  <option>Uniformes escolares</option>
+                  <option>Personalizado (otro)</option>
+                </select>
+              </div>
+
+              <div style="margin-top:12px">
+                <label style="font-weight:950; font-size:12px">Mensaje</label>
+                <textarea rows="4" placeholder="Prenda, cantidades, tallas, técnica (sublimado/bordado/estampado), fecha deseada..."></textarea>
+              </div>
+
+              <div class="actions">
+                <button class="btn buy" type="button">✅ Enviar (demo)</button>
+                <a class="btn ghost" href="tienda.html">🛒 Ver tienda</a>
+              </div>
+
+              <p class="small" style="margin-top:10px">
+                En versión real: envío a correo/WhatsApp + validaciones.
+              </p>
+            </form>
+          </div>
+
+          <div class="card mediaCard">
+            <h3 style="margin:0 0 8px">Datos (demo)</h3>
+            <p class="muted" style="margin:0">
+              📍 Lima, Perú <br/>
+              🕒 Lun–Vie 8:30–18:00 <br/>
+              📞 +51 999 999 999 <br/>
+              ✉️ ventas@reevan.com (demo)
+            </p>
+
+            <div class="imgCover" style="height:240px; margin-top:12px">
+              <img alt="Mapa/ubicación (referencial)"
+                   src="https://maps.app.goo.gl/G6J2U7NovaJmGgLQ6" />
+            </div>
+
+            <div class="actions" style="margin-top:12px">
+              <a class="btn info" href="quienes-somos.html">🏭 Ver fábrica</a>
+              <a class="btn ghost" href="articulos.html">📰 Ver artículos</a>
+            </div>
+          </div>
+        </div>
+
+        <footer>
+          <div><b style="color:#eaf2ff">Reevan E.I.R.L</b> · Contacto</div>
+          <div style="margin-top:10px">© 2025 — demo.</div>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
